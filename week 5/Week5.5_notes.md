@@ -1,0 +1,8 @@
+## Virtual Environment
+ - To solve the conflict that may occur between the different dependencies of separate projects, we use a virtual environment. A virtual environment can separate the libraries installed in our system and the libraries with the specified version we want our project to run with. A way of creating virtual environments is using a library named pipenv.
+ - pipenv is a library that can create a virtual environment. To install this library just use the classic method ```pip install pipenv```.
+ - After installing pipenv we must install the libraries we want for our project in the new virtual environment. Just use the command pipenv instead of pip. ```pipenv install numpy sklearn==0.24.1 flask```. With this command, we installed the libraries we wanted for our project.
+ - Note that using the pipenv command we made two files named _Pipfile_ and _Pipfile.lock_. If we look at these files closely we can see that in Pipfile the libraries we installed are named. If we specify the library name, it's also specified in Pipfile.
+ - In _Pipfile.lock_ we can see that each library with its installed version is named and a hash file is there to reproduce if we move the environment to another machine.
+ - If we want to run the project on another machine, we can easily install the libraries we want with the command ```pipenv install```. This command will look into _Pipfile_ and _Pipfile.lock_ to install the libraries with specified versions.
+ - After installing the required libraries we can run the project in the virtual environment with ```pipenv shell``` command. This will go to the virtual environment's shell and then any command we execute will use the virtual environment's libraries.
