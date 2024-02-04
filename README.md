@@ -1,6 +1,5 @@
 # ml_zoomcamp_2023
-Notes and homeworks from ml_zoomcamp 2023 cohort.
-Please refer to [DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp ) for the original repository!
+Notes and homeworks from ml zoomcamp 2023 cohort.
 
 week 1. Introduction to Machine Learning
 
@@ -21,3 +20,5 @@ week 8. Neural Networks and Deep Learning
 week 9. Serverless Deep Learning (AWS Lambda)
 
 week 10. Kubernetes and TensorFlow Serving
+
+Please refer to [DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp ) for the original repository!
